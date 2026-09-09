@@ -20,41 +20,39 @@ The website is designed for:
 
 The website contains the following main pages:
 
-1. **Home** – Introduces Mercy Hire Car and provides an overview of the services.
-2. **About Us** – Provides information about the business and its purpose.
-3. **Services / Vehicles** – Displays the available hire-car services and vehicle information.
-4. **Gallery / Information** – Provides images and additional information about the business and vehicles.
-5. **Contact / Booking** – Allows customers to contact the business and submit a booking or enquiry form.
+1. **Home** (`index.html`) – Introduces Mercy Hire Car and provides an overview of the services.
+2. **About Us** (`about.html`) – Provides information about the business and its purpose.
+3. **Services / Vehicles** (`services.html`) – Displays the available hire-car services and vehicle information.
+4. **Gallery / Information** (`gallery.html`) – Provides images and additional information about the business and vehicles.
+5. **Contact / Booking** (`contact.html`) – Allows customers to contact the business and submit a booking or enquiry form.
 
 ## Main Features
 
 The website includes:
 
 * Consistent navigation across all pages
-* Semantic HTML5 structure
-* Headings and paragraphs
+* Semantic HTML5 structure (header, nav, main, section, article, aside, footer)
+* Headings and paragraphs with a logical heading hierarchy
 * Lists and links
-* Images with alternative text
-* Figures and captions where appropriate
-* Contact and booking form
-* Form labels and HTML validation
-* Basic multimedia where appropriate
-* Responsive-friendly page structure
+* Images with alternative text, figures and captions
+* Tables for hire rates and opening hours
+* Contact and booking form with labels, appropriate input types and HTML5 validation attributes
+* Basic multimedia (embedded video)
 * Contact and business information
-* Basic external CSS for readability and spacing
+
+**Note on styling:** This project deliberately uses no CSS. All presentation is the browser's default rendering of semantic HTML. Visual styling is out of scope for this assessment and will be addressed in Assessment 3.
 
 ## Technologies Used
 
 The website was developed using:
 
-* **HTML5** – Website structure and content
-* **CSS3** – Basic presentation, readability and spacing
+* **HTML5** – Website structure and content only
 * **Visual Studio Code** – Text/web editor
 * **Git** – Version control
 * **GitHub** – Repository and source-code management
 * **GitHub Pages** – Website publication
 
-No website-building frameworks or templates were used.
+No CSS, website-building frameworks, or templates were used.
 
 ## Accessibility
 
@@ -79,11 +77,11 @@ mercy-hire-car/
 ├── gallery.html
 ├── contact.html
 │
-├── css/
-│   └── style.css
-│
 ├── images/
 │   └── [website images]
+│
+├── videos/
+│   └── [website video]
 │
 └── README.md
 ```
@@ -104,7 +102,7 @@ Development was completed progressively, including:
 
 ## Validation and Testing
 
-The HTML files were checked using an HTML validation service to identify errors and warnings.
+The HTML files were checked using an HTML validation service (e.g. the W3C Markup Validation Service) to identify errors and warnings.
 
 The website was also tested to confirm that:
 
@@ -128,7 +126,7 @@ Validation evidence is included with the assessment submission.
 
 ## AI Use Declaration
 
-AI-assisted tools were used during the development process for learning support, brainstorming, organisation, and assistance with understanding some HTML/CSS concepts. The final website, content, code, testing, and submission were reviewed and edited by the student.
+AI-assisted tools were used during the development process for learning support, brainstorming, organisation, and assistance with understanding HTML concepts. The final website, content, code, testing, and submission were reviewed and edited by the student.
 
 ## Assessment Information
 
