@@ -119,10 +119,10 @@ Validation evidence is included with the assessment submission.
 ## Published Website
 
 **GitHub Repository:**
-[Insert your GitHub repository URL here]
+https://github.com/dashatelikadah-coder/A2-Assignment.git
 
 **Live Website:**
-[Insert your GitHub Pages URL here]
+https://dashatelikadah-coder.github.io/A2-Assignment/
 
 ## AI Use Declaration
 
